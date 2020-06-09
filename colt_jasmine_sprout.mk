@@ -33,8 +33,7 @@ $(call inherit-product, vendor/colt/config/common.mk)
 TARGET_BOOT_ANIMATION_RES := 1080x2160
 
 # Mainatiner Prop
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.colt.maintainer="SiddharthBharadwaj"
+COLT_DEVICE_MAINTAINER := SiddharthBharadwaj
 
 # Device identifier
 PRODUCT_BRAND := xiaomi
